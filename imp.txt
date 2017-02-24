@@ -1,0 +1,11 @@
+angular js 
+https://thinkster.io/tutorials/mean-stack/getting-user-input
+
+mongo db : 
+
+https://www.youtube.com/watch?v=pWbMrx5rVBE&spfreload=10#t=108.770145
+
+DB config commands
+mongod --directoryperdb --dbpath c:\mongodb\data\db --logpath c:\mongodb\log\mongodb.log --logappend --rest --install
+
+
