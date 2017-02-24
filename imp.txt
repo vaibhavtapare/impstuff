@@ -9,3 +9,21 @@ DB config commands
 mongod --directoryperdb --dbpath c:\mongodb\data\db --logpath c:\mongodb\log\mongodb.log --logappend --rest --install
 
 
+net start MongoDB
+
+mongo
+
+
+1. show dbs 
+2. use mycustomers - create and switch existing db
+2 db -- shows current db 	
+
+4. creae db user 
+
+db.createUser(
+   {
+     user: "vaibhav",
+     pwd: "passion",
+     roles: [ "readWrite", "dbAdmin" ]
+   }
+)
